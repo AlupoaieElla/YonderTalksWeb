@@ -1,0 +1,142 @@
+body
+{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+h1
+{
+    font-family: 'Open Sans';
+    font-size: 36px;
+    font-weight: 500;
+    font-style: normal;
+    font-variant: normal;
+}
+h2
+{
+    font-family: 'Open Sans';
+    font-size: 3rem;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    font-style: italic;
+}
+h3
+{
+    font-family: 'Open Sans';
+    font-size: 1rem;
+    font-weight: 500;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 15.4px;
+}
+p
+{
+    font-family: 'Open Sans';
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1rem;
+}
+blockquote
+{
+    font-family: 'Open Sans';
+    font-size: 21px;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 30px;
+}
+pre
+{
+    font-family: 'Open Sans';
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 18.5714px;
+}
+
+
+
+@font-face
+{
+    font-family: 'icomoon';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('fonts/icomoon.eot?abr42d');
+    src: url('fonts/icomoon.eot?abr42d#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?abr42d') format('truetype'),
+    url('fonts/icomoon.woff?abr42d') format('woff'),
+    url('fonts/icomoon.svg?abr42d#icomoon') format('svg');
+}
+
+[class^='icon-'],
+[class*=' icon-']
+{
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+
+    text-transform: none;
+
+    speak: none;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before
+{
+    content: '\e903';
+}
+.icon-linkedin:before
+{
+    content: '\e904';
+}
+.icon-www .path1:before
+{
+    content: '\e905';
+
+    color: #fff;
+}
+.icon-www .path2:before
+{
+    margin-left: -1em;
+
+    content: '\e906';
+
+    color: #e2007a;
+}
+.icon-www .path3:before
+{
+    margin-left: -1em;
+
+    content: '\e907';
+
+    color: #e2007a;
+}
+.icon-www .path4:before
+{
+    margin-left: -1em;
+
+    content: '\e908';
+
+    color: #e2007a;
+}
+.icon-calendar:before
+{
+    content: '\e900';
+}
+.icon-location:before
+{
+    content: '\e901';
+}
+.icon-clock:before
+{
+    content: '\e902';
+}
