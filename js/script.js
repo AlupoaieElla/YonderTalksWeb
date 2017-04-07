@@ -29,12 +29,6 @@ $(function() {
         })
     })
 
-    $(document).ready(function() {
-        $("#cf_onclick").click(function() {
-            $("#cf2 img.top").toggleClass("transparent");
-        });
-    });
-
     window.onload = function() {
 
         var background_characters = {
@@ -47,6 +41,7 @@ $(function() {
         var talk = document.getElementById("talk");
         var speakers__container = document.getElementById("speakers__container");
         speakers__container.addEventListener("click", function(e) {
+            // e.target.dateset.colour
             var img = e.target.id;
             if (background_characters.hasOwnProperty(img)) {
                 console.log("Found it!" + img);
@@ -54,13 +49,6 @@ $(function() {
             }
         });
 
-
-        /*fade in out logo and description in intro*/
-        function swap() {
-            $('.intro__description').fadeIn(2000);
-            $('.logo').addClass("fadeout");
-        }
-        setTimeout(swap, 1000);
     };
 });
 
